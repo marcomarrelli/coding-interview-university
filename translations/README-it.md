@@ -4,7 +4,7 @@
 
 [File Originale (in Inglese) - Original File Here](../README.md)
 
-Traduzione in Italiano a Cura di [@volpoh](https://github.com/volpoh)
+Traduzione in Italiano a Cura di [@marcomarrelli](https://github.com/marcomarrelli)
 
 > Inizialmente ho creato questo progetto come una sorta di "to-do list" degli argomenti da studiare per diventare un software engineer,
 > ma è cresciuta fino a diventare ciò che potete vedere oggi. Dopo aver seguito questo percorso di studio, [Sono stato preso
@@ -1124,195 +1124,194 @@ I grafi possono essere usati per rappresentare molti problemi in informatica, pe
         - [ ] [Mutex in Python](https://www.youtube.com/watch?v=0zaPs8OtyKY)
 
 - ### Testing
-    - To cover:
-        - how unit testing works
-        - what are mock objects
-        - what is integration testing
-        - what is dependency injection
-    - [ ] [Agile Software Testing with James Bach (Video in Inglese)](https://www.youtube.com/watch?v=SAhJf36_u5U)
-    - [ ] [Open Lezione by James Bach on Software Testing (Video in Inglese)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
-    - [ ] [Steve Freeman - Test-Driven Development (that’s not what we meant) (Video in Inglese)](https://vimeo.com/83960706)
+    - Argomenti da Coprire:
+        - come un'unità di testing funziona
+        - cosa sono gli oggetti simulati (mock objects)
+        - cos'è il testing per l'integrazione
+        - cos'è il dependency injection
+    - [ ] [Testing nel Software Agile con James Bach (Video in Inglese)](https://www.youtube.com/watch?v=SAhJf36_u5U)
+    - [ ] [Lezione Aperta di James Bach sul Testing per Software (Video in Inglese)](https://www.youtube.com/watch?v=ILkT_HV9DVU)
+    - [ ] [Steve Freeman - Sviluppo Guidato dai Test (non è ciò che intendavamo) (Video in Inglese)](https://vimeo.com/83960706)
         - [slides](http://gotocon.com/dl/goto-berlin-2013/slides/SteveFreeman_TestDrivenDevelopmentThatsNotWhatWeMeant.pdf)
     - [ ] Dependency injection:
-        - [ ] [video](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
+        - [ ] [Video in Inglese](https://www.youtube.com/watch?v=IKD2-MAkXyQ)
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
-    - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
+    - [ ] [Come Scrivere i Test](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
 - ### Ricerca Tramite Pattern-Matching e Manipolazione delle Stringhe
-    - [ ] [Sedgewick - Suffix Arrays (Video in Inglese)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
-    - [ ] [Sedgewick - Substring Search (video)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
-        - [ ] [1. Introduction to Substring Search](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
-        - [ ] [2. Brute-Force Substring Search](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
+    - [ ] [Sedgewick - Array di Suffissi (Suffix Arrays, Video in Inglese)](https://www.coursera.org/learn/algorithms-part2/lecture/TH18W/suffix-arrays)
+    - [ ] [Sedgewick - Ricerca per Sottostringhe (Substring Search, Video in Inglese)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
+        - [ ] [1. Introduzione alla Ricerca per Substring](https://www.coursera.org/lecture/algorithms-part2/introduction-to-substring-search-n3ZpG)
+        - [ ] [2. Ricerca per Substring con Forza Bruta (Brute-Force)](https://www.coursera.org/learn/algorithms-part2/lecture/2Kn5i/brute-force-substring-search)
         - [ ] [3. Knuth-Morris Pratt](https://www.coursera.org/learn/algorithms-part2/lecture/TAtDr/knuth-morris-pratt)
         - [ ] [4. Boyer-Moore](https://www.coursera.org/learn/algorithms-part2/lecture/CYxOT/boyer-moore)
         - [ ] [5. Rabin-Karp](https://www.coursera.org/lecture/algorithms-part2/rabin-karp-3KiqT)
-    - [ ] [Search pattern in text (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
+    - [ ] [Search pattern nel testo (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
 
-    If you need more detail on this subject, see "String Matching" section in [Additional Detail on Some Subjects](#additional-detail-on-some-subjects).
+    Se hai bisogno di più nozioni su questa tematica, consulta "String Matching" in [Dettagli Aggiuntivi Riguardo Certe Tematiche](#additional-detail-on-some-subjects).
 
 - ### Tries
-    - Note there are different kinds of tries. Some have prefixes, some don't, and some use string instead of bits
-        to track the path
-    - I read through code, but will not implement
+    - Esistono diversi tipi di trie. Alcune hanno i prefissi, altri no, e alcuni usano stringhe invece di bits per seguire il percorso
+    - Ho letto il codice, ma non lo implementerò
     - [ ] [Sedgewick - Tries (3 video)](https://www.coursera.org/learn/algorithms-part2/home/week/4)
         - [ ] [1. R Way Tries](https://www.coursera.org/learn/algorithms-part2/lecture/CPVdr/r-way-tries)
-        - [ ] [2. Ternary Search Tries](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
-        - [ ] [3. Character Based Operations](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
-    - [ ] [Notes on Data Structures and Programming Techniques](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
-    - [ ] Short course video:
-        - [ ] [Introduction To Tries (Video in Inglese)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
-        - [ ] [Performance Of Tries (Video in Inglese)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
-        - [ ] [Implementing A Trie (Video in Inglese)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
-    - [ ] [The Trie: A Neglected Data Structure](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
-    - [ ] [TopCoder - Using Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
-    - [ ] [Stanford Lezione (real world use case) (Video in Inglese)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
-    - [ ] [MIT, Advanced Data Structures, Strings (can get pretty obscure about halfway through) (Video in Inglese)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+        - [ ] [2. Alberi Ternari di Ricerca (Ternary Search Tries)](https://www.coursera.org/learn/algorithms-part2/lecture/yQM8K/ternary-search-tries)
+        - [ ] [3. Operazioni Basate sui Caratteri](https://www.coursera.org/learn/algorithms-part2/lecture/jwNmV/character-based-operations)
+    - [ ] [Appunti sulle Strutture Dati e Tecniche di Programmazione](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
+    - [ ] Piccoli video-corsi:
+        - [ ] [Introduzione ai Tries (Video in Inglese)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/08Xyf/core-introduction-to-tries)
+        - [ ] [Performance dei Tries (Video in Inglese)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/PvlZW/core-performance-of-tries)
+        - [ ] [Implementazione di un Trie (Video in Inglese)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/DFvd3/core-implementing-a-trie)
+    - [ ] [Il Trie: Una Struttura Dati Trascurata](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+    - [ ] [TopCoder - Come Usare i Tries](https://www.topcoder.com/community/competitive-programming/tutorials/using-tries/)
+    - [ ] [Lezione di Stanford (uso nel mondo reale, Video in Inglese)](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
+    - [ ] [MIT, Strutture Dati Avanzate, Stringhe (Video in Inglese)](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 - ### Numeri con Decimali (Floats)
-    - [ ] simple 8-bit: [Representation of Floating Point Numbers - 1 (video - there is an error in calculations - see video description)](https://www.youtube.com/watch?v=ji3SfClm8TU)
+    - [ ] semplici, 8-bit: [Rappresentazione dei Floats - 1 (video - c'è un errore nei calcoli - consultare la descrizione del video)](https://www.youtube.com/watch?v=ji3SfClm8TU)
 
 - ### Unicode
-    - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
-    - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
+    - [ ] [Il Minimo Assoluto che ogni Programmatore Deve Conoscere Riguardo l'Unicode e i Set di Caratteri](http://www.joelonsoftware.com/articles/Unicode.html)
+    - [ ] [Il Minimo Assoluto che ogni Programmatore Deve Conoscere, per Lavorare con del Testo, Riguardo l'Encoding e i Set di Caratteri](http://kunststube.net/encoding/)
 
 - ### Ordine dei Byte (Endianness)
-    - [ ] [Big And Little Endian](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
-    - [ ] [Big Endian Vs Little Endian (Video in Inglese)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
-    - [ ] [Big And Little Endian Inside/Out (Video in Inglese)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
-        - Very technical talk for kernel devs. Don't worry if most is over your head.
-        - The first half is enough.
+    - [ ] [Big-Endian e Little-Endian](https://web.archive.org/web/20180107141940/http://www.cs.umd.edu:80/class/sum2003/cmsc311/Notes/Data/endian.html)
+    - [ ] [Big-Endian vs Little-Endian (Video in Inglese)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
+    - [ ] [Big-Endian e Little-Endian Inside/Out (Video in Inglese)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
+        - Per Sviluppatori del Kernel. Non preoccuparti se lo reputi troppo difficile.
+        - La prima metà è abbastanza.
 
 - ### Networking
-    - **if you have networking experience or want to be a reliability engineer or operations engineer, expect questions**
-    - Otherwise, this is just good to know
+    - **se hai esperienza con il networking o vuoi essere considerato un ingegnerie affidabile, aspettati delle domande**
+    - Altrimenti, questo è abbastanza da sapere
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/code-org/computers-and-the-internet)
-    - [ ] [UDP and TCP: Comparison of Transport Protocols (Video in Inglese)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
-    - [ ] [TCP/IP and the OSI Model Explained! (Video in Inglese)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
-    - [ ] [Packet Transmission across the Internet. Networking & TCP/IP tutorial. (Video in Inglese)](https://www.youtube.com/watch?v=nomyRJehhnM)
+    - [ ] [UDP e TCP: Comparazione dei Protocolli di Trasporto (Video in Inglese)](https://www.youtube.com/watch?v=Vdc8TCESIg8)
+    - [ ] [TCP/IP e il modello OSI Spiegati! (Video in Inglese)](https://www.youtube.com/watch?v=e5DEVa9eSN0)
+    - [ ] [Trasmissione di un Pacchetto tramite Internet. Tutorial Networking e TCP/IP (Video in Inglese)](https://www.youtube.com/watch?v=nomyRJehhnM)
     - [ ] [HTTP (Video in Inglese)](https://www.youtube.com/watch?v=WGJrLqtX7As)
-    - [ ] [SSL and HTTPS (Video in Inglese)](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+    - [ ] [SSL e HTTPS (Video in Inglese)](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
     - [ ] [SSL/TLS (Video in Inglese)](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
     - [ ] [HTTP 2.0 (Video in Inglese)](https://www.youtube.com/watch?v=E9FxNzv1Tr8)
-    - [ ] [Video Series (21 video) (Video in Inglese)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
-    - [ ] [Subnetting Demystified - Part 5 CIDR Notation (Video in Inglese)](https://www.youtube.com/watch?v=t5xYI0jzOf4)
+    - [ ] [Serie di Video (21 video, in Inglese)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
+    - [ ] [Subnetting Semplificato - Parte 5 Notazione CIDR (Video in Inglese)](https://www.youtube.com/watch?v=t5xYI0jzOf4)
     - [ ] Sockets:
-        - [ ] [Java - Sockets - Introduction (Video in Inglese)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
-        - [ ] [Socket Programming (Video in Inglese)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
+        - [ ] [Java - Sockets - Introduzione (Video in Inglese)](https://www.youtube.com/watch?v=6G_W54zuadg&t=6s)
+        - [ ] [Programmazione Socket (Video in Inglese)](https://www.youtube.com/watch?v=G75vN2mnJeQ)
 
 ---
 
 ## Revisione Finale
 
-    This section will have shorter video that you can watch pretty quickly to review most of the important concepts.
-    It's nice if you want a refresher often.
+    Questa sezione avrà video più brevi che potrai guardare abbastanza rapidamente per rivedere la maggior parte dei concetti importanti.
+    È bello che si desideri aggiornarsi spesso.
 
-- [ ] Series of 2-3 minutes short subject video (23 video)
-    - [video](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject video - Michael Sambol (46 video):
-    - [video](https://www.youtube.com/@MichaelSambol)
-    - [code examples](https://github.com/msambol/dsa)
-- [ ] [Sedgewick video - Algorithms I](https://www.coursera.org/learn/algorithms-part1)
-- [ ] [Sedgewick video - Algorithms II](https://www.coursera.org/learn/algorithms-part2)
+- [ ] Serie di video brevi di 2-3 minuti (23 video, in Inglese)
+    - [Video](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
+- [ ] Serie di video brevi di 2-5 minuti - Michael Sambol (40 video, in Inglese):
+    - [Video](https://www.youtube.com/channel/UCzDJwLWoYCUQowF_nG3m5OQ)
+    - [Esempi di Codice](https://github.com/msambol/dsa)
+- [ ] [Sedgewick Video - Algoritmi I](https://www.coursera.org/learn/algorithms-part1)
+- [ ] [Sedgewick Video - Algoritmi II](https://www.coursera.org/learn/algorithms-part2)
 
 ---
 
-## Update Your Resume
+## Aggiorna il tuo Curriculum Vitae
 
-- See Resume prep information in the books: "Cracking The Coding Interview" and "Programming Interviews Exposed"
-- I don't know how important this is (you can do your own research) but here is an article on making your resume ATS Compliant:
-    - [How to Create or Check if your Resume is ATS Compliant](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
-- ["This Is What A GOOD Resume Should Look Like" by Gayle McDowell (author of Cracking the Coding Interview)](https://www.careercup.com/resume), 
-    - Note by the author: "This is for a US-focused resume. CVs for India and other countries have different expectations, although many of the points will be the same."
-- ["Step-by-step resume guide" by Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
-    - Detailed guide on how to set up your resume from scratch, write effective resume content, optimize it, and test your resume
+- Guarda i Capitoli sulla Preparazione del Curriculum in Questi Libri: "Cracking The Coding Interview" e "Programming Interviews Exposed"
+- Non so quanto sia importante, ma ecco un articolo su come fare un curriculum ATS Compliant-Friendly:
+    - [Come Creare o Controllare se il tuo Curriculum è ATS Compliant-Friendly](https://ayedot.com/97/MiniBlog/Meaning-of-ATS-compliant-resume-and-How-to-create-ATS-Resume-for-Free)
+- ["Come un Buon Curriculum dovrebbe Essere" di Gayle McDowell (Autore del Libro "Cracking the Coding Interview")](https://www.careercup.com/resume), 
+    - Note dell'Autore: "Questo è un Curriculum per gli Stati Uniti. CVs per l'India e altre nazioni hanno aspettative diverse, nonostante molti punti siano uguali."
+- ["Guida Step-by-Step per il Curriculum" di Tech Interview Handbook](https://www.techinterviewhandbook.org/resume/guide)
+    - Guida Dettagliata su come Creare un Curriculum da Zero, scrivere contenuto efficace, ottimizzarlo e testarlo
 
 
-## Find a Job
+## Trova un Lavoro
 
-- [Sites for Finding Jobs](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
+- [Siti per Trovare un Lavoro](https://ayedot.com/151/MiniBlog/Top-10-Best-Websites-for-Careers--Jobs)
 
-## Interview Process & General Interview Prep
+## Colloquio & Preparazione Generale
 
-- [ ] [How to Pass the Engineering Interview in 2021](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
-- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
-- [ ] How to Get a Job at the Big 4:
-    - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (Video in Inglese)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
-    - [ ] [How to Get a Job at the Big 4.1 (Follow-up video)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
-- [ ] Cracking The Coding Interview Set 1:
+- [ ] [Come Passare il Colloquio nel 2021 (Video in Inglese)](https://davidbyttow.medium.com/how-to-pass-the-engineering-interview-in-2021-45f1b389a1)
+- [ ] [Semplificare il Colloquio (Video in Inglese)](https://www.youtube.com/watch?v=N233T0epWTs)
+- [ ] Come Avere un Lavoro nelle Big 4:
+    - [ ] [Come Avere un Lavoro nelle Big 4 - Amazon, Facebook, Google & Microsoft (Video in Inglese)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
+    - [ ] [Come Avere un Lavoro nelle Big 4.1 (Sequel)](https://www.youtube.com/watch?v=6790FVXWBw8&feature=youtu.be)
+- [ ] Cracking The Coding Interview Set - 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (Video in Inglese)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-    - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (Video in Inglese)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
-- [ ] Cracking the Facebook Coding Interview:
-    - [ ] [The Approach](https://www.youtube.com/watch?v=wCl9kvQGHPI)
-    - [ ] [Problem Walkthrough](https://www.youtube.com/watch?v=4UWDyJq8jZg)
-- Prep Courses:
-    - [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
-        - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
-    - [Python for Data Structures, Algorithms, and Interviews (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
-    - [Intro to Data Structures and Algorithms using Python (Udacity free course)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
-        - A free Python centric data structures and algorithms course.
-    - [Data Structures and Algorithms Nanodegree! (Udacity paid Nanodegree)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
-        - Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.
-    - [Grokking the Behavioral Interview (Educative free course)](https://www.educative.io/courses/grokking-the-behavioral-interview):
-        - Many times, it’s not your technical competency that holds you back from landing your dream job, it’s how you perform on the behavioral interview.
+    - [ ] [Cracking the Coding Interview con l'Autore Gayle Laakmann McDowell (Video in Inglese)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+- [ ] Cracking The Coding Interview (Facebook):
+    - [ ] [L'Approccio](https://www.youtube.com/watch?v=wCl9kvQGHPI)
+    - [ ] [Walkthrough per i Problemi](https://www.youtube.com/watch?v=4UWDyJq8jZg)
+- Corsi Preparatori:
+    - [Software Engineer Interview Unleashed (Corso Pagato)](https://www.udemy.com/software-engineer-interview-unleashed):
+        - Impara da un intervistatore di Google come prepararsi per un colloquio software developer.
+    - [Python for Data Structures, Algorithms, and Interviews (Corso Pagato)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - Un corso incentrato su Python di preparazione ai colloqui che copre strutture dati, algoritmi, simulazioni e molto altro.
+    - [Intro to Data Structures and Algorithms using Python (Udacity Corso Gratuito)](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513):
+        - Un corso gratuito su strutture dati e algoritmi in Python.
+    - [Data Structures and Algorithms Nanodegree! (Udacity Nanodegree Pagata)](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256):
+        - Fai pratica con oltre 100 esercizi su strutture dati e algoritmi, con la guida di un tutor dedicato che vi aiuterà a prepararvi per colloqui e scenari lavorativi.
+    - [Grokking the Behavioral Interview (Educative Corso Gratuito)](https://www.educative.io/courses/grokking-the-behavioral-interview):
+        - Molte volte non sono le competenze tecniche a impedirvi di ottenere il lavoro dei vostri sogni, ma il modo in cui vi comportate al colloquio comportamentale.
 
-Mock Interviews:
-- [Gainlo.co: Mock interviewers from big companies](http://www.gainlo.co/#!/) - I used this and it helped me relax for the phone screen and on-site interview
-- [Pramp: Mock interviews from/with peers](https://www.pramp.com/) - peer-to-peer model of practice interviews
-- [interviewing.io: Practice mock interview with senior engineers](https://interviewing.io) - anonymous algorithmic/systems design interviews with senior engineers from FAANG anonymously
+Colloqui Simulati:
+- [Gainlo.co: Finti colloqui per grandi aziende](http://www.gainlo.co/#!/) - L'ho usato e mi ha aiutato a rilassarmi per il colloquio da remoto e in loco.
+- [Pramp: Finti colloqui da/con colleghi ai pari livelli](https://www.pramp.com/) - Modello di colloqui di pratica tra pari.
+- [interviewing.io: Allenati insieme a dei senior engineers](https://interviewing.io) - Colloqui anonimi di progettazione di algoritmi/sistemi con ingegneri senior FAANG in forma anonima.
 
-## Be thinking of for when the interview comes
+## Sii Pronto Per il Giorno del Colloquio
 
-Think of about 20 interview questions you'll get, along with the lines of the items below. Have at least one answer for each.
-Have a story, not just data, about something you accomplished.
+Pensa a circa 20 domande di colloquio che ti verranno rivolte, in linea con la lista sottostante. Preparate almeno una risposta per ognuna di esse.
+Non limitatevi ai dati, ma raccontate una storia su qualcosa che avete realizzato.
 
-- Why do you want this job?
-- What's a tough problem you've solved?
-- Biggest challenges faced?
-- Best/worst designs seen?
-- Ideas for improving an existing product
-- How do you work best, as an individual and as part of a team?
-- Which of your skills or experiences would be assets in the role and why?
-- What did you most enjoy at [job x / project y]?
-- What was the biggest challenge you faced at [job x / project y]?
-- What was the hardest bug you faced at [job x / project y]?
-- What did you learn at [job x / project y]?
-- What would you have done better at [job x / project y]?
+- Perché vorresti questo lavoro?
+- Qual è un problema difficile che hai risolto?
+- Le più grandi sfide affrontate?
+- I migliori/peggiori design visti?
+- Idee per migliorare un prodotto esistente
+- Come lavori al meglio, individualmente o essendo parte di un team?
+- Quali delle tue competenze o esperienze sarebbero utili nel ruolo e perché?
+- Che cosa ti è piaciuto di più in [lavoro x / progetto y]?
+- Qual è stata la sfida più grande che hai affrontato in [lavoro x / progetto y]?
+- Qual è stato l'ostacolo più difficile da affrontare in [lavoro x / progetto y]?
+- Che cosa hai imparato in [lavoro x / progetto y]?
+- Cosa avresti fatto meglio in [lavoro x / progetto y]?
 
-- If you find it hard to come up with good answers of these types of interview questions, here are some ideas: 
-    - [General Interview Questions and their Answers](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
+- Se hai difficoltà a trovare delle buone risposte a queste domande, ecco dove potersi ispirare: 
+    - [Domande generali di colloquio e relative risposte](https://ayedot.com/119/MiniBlog/General-Interview-Questions-and-their-Answers-for-Tech-Jobs)
 
-## Have questions for the interviewer
+## Preparati Domande per l'Esaminatore
 
-Some of mine (I already may know the answers, but want their opinion or team perspective):
+Alcuni dei miei (forse conosco già le risposte, ma voglio la loro opinione o la prospettiva del team):
 
-- How large is your team?
-- What does your dev cycle look like? Do you do waterfall/sprints/agile?
-- Are rushes to deadlines common? Or is there flexibility?
-- How are decisions made in your team?
-- How many meetings do you have per week?
-- Do you feel your work environment helps you concentrate?
-- What are you working on?
-- What do you like about it?
-- What is the work life like?
-- How is the work/life balance?
+- Quanto è grande il vostro team?
+- Com'è il vostro ciclo di sviluppo? Fate waterfall/sprint/agile?
+- Le corse alle scadenze sono comuni? O c'è flessibilità?
+- Come vengono prese le decisioni nel vostro team?
+- Quante riunioni fate a settimana?
+- Ritiene che il suo ambiente di lavoro la aiuti a concentrarsi?
+- Su cosa lavora?
+- Che cosa le piace del suo lavoro?
+- Com'è la vita lavorativa?
+- Com'è l'equilibrio tra vita privata e lavoro?
 
-## Once You've Got The Job
+## Una Volta Ottenuto il Lavoro
 
-Congratulations!
+Congratulazioni!
 
-Keep learning.
+Continua ad imparare.
 
-You're never really done.
+Non si è mai abbastanza istruiti.
 
 ---
 
     *****************************************************************************************************
     *****************************************************************************************************
 
-    Everything below this point is optional. It is NOT needed for an entry-level interview.
-    However, by studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
-    any software engineering job. You'll be a much more well-rounded software engineer.
+    Tutto ciò che si trova al di sotto di questo punto è facoltativo. NON è necessario per un colloquio di lavoro.
+    Tuttavia, studiando questi argomenti, otterrai una maggiore esposizione a un maggior numero di concetti di Ingegneria Informatica e sarai preparati meglio per
+    qualsiasi lavoro nel settore. Sarai un developer molto più completo.
     
     *****************************************************************************************************
     *****************************************************************************************************
@@ -1517,8 +1516,8 @@ You're never really done.
 	- [The Absolute Beginner's Guide to Emacs (video by David Wilson)](https://www.youtube.com/watch?v=48JlgiBpw_I&t=0s)
 	- [The Absolute Beginner's Guide to Emacs (notes by David Wilson)](https://systemcrafters.net/emacs-essentials/absolute-beginners-guide-to-emacs/)
 
-- ### Unix command line tools
-    - I filled in the list below from good tools.
+- ### Strumenti a Riga di Comando per Unix
+    - La lista sottostante è riempita da comandi molto utili.
     - bash
     - cat
     - grep
@@ -1675,7 +1674,7 @@ You're never really done.
         - [AVL Trees (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/Qq5E0/avl-trees)
         - [AVL Tree Implementation (Video in Inglese)](https://www.coursera.org/learn/data-structures/lecture/PKEBC/avl-tree-implementation)
         - [Split And Merge](https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge)
-        - [[Review] AVL Trees (playlist) in 19 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
+        - [[Review] AVL Trees (playlist) in 19 minutes (Video in Inglese)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
 
     - **Splay trees**
         - In practice:
@@ -1817,7 +1816,7 @@ You're never really done.
 
 ---
 
-## Additional Detail on Some Subjects
+## Dettagli Aggiuntivi per Alcuni Temi Trattati
 
     I added these to reinforce some ideas already presented above, but didn't want to include them
     above because it's just too much. It's easy to overdo it on a subject.
@@ -1956,43 +1955,43 @@ Sit back and enjoy.
 
 - [Graph Theory by Sarada Herke (67 video)](https://www.youtube.com/user/DrSaradaHerke/playlists?shelf_id=5&view=50&sort=dd)
 
-## Computer Science Courses
+## Corsi di Informatica
 
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online Lezioni)](https://github.com/prakhar1989/awesome-courses)
 
-## Algorithms implementation
+## Implementazione degli Algoritmi
 
 - [Multiple Algorithms implementation by Princeton University](https://algs4.cs.princeton.edu/code)
 
 
-## Papers
+## Saggi
 
-- [Love classic papers?](https://www.cs.cmu.edu/~crary/819-f09/)
-- [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
-    - [implemented in Go](https://godoc.org/github.com/thomas11/csp)
-- [2003: The Google File System](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-    - replaced by Colossus in 2012
+- [Ami i documenti classici?](https://www.cs.cmu.edu/~crary/819-f09/)
+- [1978: Processi Sequenziali Comunicanti](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
+    - [implementazione in Go](https://godoc.org/github.com/thomas11/csp)
+- [2003: Il  File System di Google](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
+    - sostituito da Colossus nel 2012
 - [2004: MapReduce: Simplified Data Processing on Large Clusters]( http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
-    - mostly replaced by Cloud Dataflow?
+    - sostituito per lo più da Cloud Dataflow (?)
 - [2006: Bigtable: A Distributed Storage System for Structured Data](https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf)
 - [2006: The Chubby Lock Service for Loosely-Coupled Distributed Systems](https://research.google.com/archive/chubby-osdi06.pdf)
-- [2007: Dynamo: Amazon’s Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
-    - The Dynamo paper kicked off the NoSQL revolution
-- [2007: What Every Programmer Should Know About Memory (very long, and the author encourages skipping of some sections)](https://www.akkadia.org/drepper/cpumemory.pdf)
-- 2012: AddressSanitizer: A Fast Address Sanity Checker:
-    - [paper](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
-    - [video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-- 2013: Spanner: Google’s Globally-Distributed Database:
-    - [paper](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
-    - [video](https://www.usenix.org/node/170855)
+- [2007: Dynamo: Amazon's Highly Available Key-value Store](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf)
+    - L'articolo su Dynamo ha dato il via alla rivoluzione NoSQL
+- [2007: What Every Programmer Should Know About Memory (molto lungo e l'autore invita a saltare alcune sezioni)](https://www.akkadia.org/drepper/cpumemory.pdf)
+- 2012: AddressSanitizer: Un Address Sanity Checker Veloce:
+  - [Saggio](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37752.pdf)
+  - [Video](https://www.usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
+- 2013: Spanner: Il Database distribuito Globalmente da Google:
+  - [Saggio](http://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf)
+  - [Video](https://www.usenix.org/node/170855)
 - [2014: Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf)
 - [2015: Continuous Pipelines at Google](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43790.pdf)
 - [2015: High-Availability at Massive Scale: Building Google’s Data Infrastructure for Ads](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
 - [2015: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf )
 - [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
-- More papers: [1,000 papers](https://github.com/0voice/computer_expert_paper)
+- Altri articoli: [1.000 articoli](https://github.com/0voice/computer_expert_paper)
 
-## LICENSE
+## LICENZA
 
-[CC-BY-SA-4.0](./LICENSE.txt)
+[CC-BY-SA-4.0](../LICENSE.txt)
